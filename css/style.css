@@ -194,3 +194,22 @@ button:hover
 }
 
 /* End Banner Area */ 
+
+
+/* Start About Area */ 
+
+.site-main .about-area{
+    padding: 0rem 5rem;
+}
+
+ .site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 40px/ 60px var(--roboto);
+    letter-spacing: 15px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+/* End About Area */ 
