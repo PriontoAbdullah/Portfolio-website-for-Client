@@ -8,6 +8,7 @@ html, body{
     box-sizing: border-box;
     width: 100%;
     height: 100%;
+    scroll-behavior: smooth;
 }
 
 /* CSS Variables */ 
@@ -400,7 +401,7 @@ button:hover
 /* Subscribe me */ 
 
 .site-main .subscribe-us-area .subscribe{
-    background: url(../img/subscribe-bg.png) no-repeat;
+    background: url(../img/subscribe-bg.png) center no-repeat;
     padding: 10rem 0;
     margin: 3rem auto;
 }
@@ -416,7 +417,7 @@ button:hover
 }
 
 .site-main .subscribe-us-area .subscribe form .input-textbox input{
-    width: 400px;
+    width: 500px;
     padding: 1.5rem 1rem;
     border: 1px solid whitesmoke;
     background: transparent;
