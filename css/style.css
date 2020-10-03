@@ -435,3 +435,39 @@ button:hover
 }
 
 /* End subscribe me */ 
+
+
+/* Footer Area */ 
+
+footer.footer-area{
+    padding: 3rem 0;
+    background: url(../img/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .social h5{
+    font: normal 500 23px/ 30px var(--roboto);
+}
+
+footer.footer-area .social a > i{
+    font-size:22px;
+    padding: 2rem;
+    color: var(--primary-color);
+}
+
+footer.footer-area .social a:hover > i{
+    color: var(--gradient-color)
+}
+
+/* End Footer */ 
+
+.button.secondary-button{
+    background: white;
+    background-clip: padding-box;
+    transition: background .6s ease;
+}
+
+.button.secondary-button:hover{
+    background: var(--gradient-color);
+    color: whitesmoke;
+    box-shadow: var(--box-shadow);
+}
